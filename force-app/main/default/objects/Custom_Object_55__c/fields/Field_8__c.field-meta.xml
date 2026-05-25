@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_8__c</fullName>
+    <label>Field 8</label>
+    <description>Auto-generated field 8 for Custom_Object_55__c</description>
+    <inlineHelpText>Enter the value for field 8</inlineHelpText>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Phone</type>
+</CustomField>

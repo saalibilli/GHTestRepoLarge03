@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_16__c</fullName>
+    <label>Field 16</label>
+    <description>Auto-generated field 16 for Custom_Object_46__c</description>
+    <inlineHelpText>Enter the value for field 16</inlineHelpText>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+    <precision>18</precision>
+    <scale>2</scale>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_7__c</fullName>
+    <label>Field 7</label>
+    <description>Auto-generated field 7 for Custom_Object_23__c</description>
+    <inlineHelpText>Enter the value for field 7</inlineHelpText>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>false</unique>
+    <externalId>false</externalId>
+</CustomField>

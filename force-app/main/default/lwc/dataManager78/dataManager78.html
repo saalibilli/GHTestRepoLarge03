@@ -1,0 +1,120 @@
+<template>
+    <lightning-card title="Record Manager" icon-name="standard:record">
+        <div slot="actions">
+            <lightning-button-group>
+                <lightning-button label="Refresh" icon-name="utility:refresh" onclick={handleRefresh}></lightning-button>
+                <lightning-button label="Process Selected" variant="brand" icon-name="utility:process" onclick={handleBulkProcess}></lightning-button>
+                <lightning-button label="Export" icon-name="utility:download" onclick={handleExport}></lightning-button>
+            </lightning-button-group>
+        </div>
+
+        <div class="slds-p-around_medium">
+            <!-- Search and Filter Bar -->
+            <div class="slds-grid slds-gutters slds-m-bottom_medium">
+                <div class="slds-col slds-size_1-of-3">
+                    <lightning-input
+                        type="search"
+                        label="Search"
+                        placeholder="Search records..."
+                        value={searchTerm}
+                        onchange={handleSearch}>
+                    </lightning-input>
+                </div>
+                <div class="slds-col slds-size_1-of-3">
+                    <lightning-combobox
+                        label="Filter by Status"
+                        value={filterStatus}
+                        options={statusOptions}
+                        onchange={handleFilterChange}>
+                    </lightning-combobox>
+                </div>
+                <div class="slds-col slds-size_1-of-3 slds-text-align_right slds-p-top_large">
+                    <span class="slds-text-body_small">{pageInfo}</span>
+                </div>
+            </div>
+
+            <!-- Loading Spinner -->
+            <template if:true={isLoading}>
+                <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+            </template>
+
+            <!-- Error Display -->
+            <template if:true={error}>
+                <div class="slds-notify slds-notify_alert slds-alert_error" role="alert">
+                    <span class="slds-assistive-text">error</span>
+                    <h2>{error}</h2>
+                </div>
+            </template>
+
+            <!-- Data Table -->
+            <template if:true={hasRecords}>
+                <lightning-datatable
+                    key-field="id"
+                    data={paginatedRecords}
+                    columns={columns}
+                    sorted-by={sortedBy}
+                    sorted-direction={sortDirection}
+                    onsort={handleSort}
+                    onrowaction={handleRowAction}
+                    onrowselection={handleRowSelection}
+                    show-row-number-column
+                    max-row-selection="50">
+                </lightning-datatable>
+
+                <!-- Pagination -->
+                <div class="slds-grid slds-grid_align-center slds-m-top_medium">
+                    <lightning-button
+                        label="Previous"
+                        icon-name="utility:chevronleft"
+                        onclick={handlePrevious}
+                        disabled={isFirstPage}>
+                    </lightning-button>
+                    <span class="slds-p-horizontal_medium slds-align-middle">
+                        Page {currentPage} of {totalPages}
+                    </span>
+                    <lightning-button
+                        label="Next"
+                        icon-name="utility:chevronright"
+                        icon-position="right"
+                        onclick={handleNext}
+                        disabled={isLastPage}>
+                    </lightning-button>
+                </div>
+            </template>
+
+            <!-- Empty State -->
+            <template if:false={hasRecords}>
+                <template if:false={isLoading}>
+                    <div class="slds-illustration slds-illustration_small slds-p-around_large slds-text-align_center">
+                        <p class="slds-text-heading_medium">No Records Found</p>
+                        <p class="slds-text-body_regular slds-m-top_small">Try adjusting your search or filter criteria.</p>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+
+    <!-- Edit Modal -->
+    <template if:true={showModal}>
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" onclick={closeModal}>
+                        <lightning-icon icon-name="utility:close" size="small"></lightning-icon>
+                    </button>
+                    <h2 class="slds-text-heading_medium">Edit Record</h2>
+                </header>
+                <div class="slds-modal__content slds-p-around_medium">
+                    <lightning-input label="Name" value={modalRecord.name} onchange={handleModalNameChange}></lightning-input>
+                    <lightning-input label="Amount" type="number" value={modalRecord.amount} onchange={handleModalAmountChange} class="slds-m-top_small"></lightning-input>
+                    <lightning-combobox label="Status" value={modalRecord.status} options={statusOptions} onchange={handleModalStatusChange} class="slds-m-top_small"></lightning-combobox>
+                </div>
+                <footer class="slds-modal__footer">
+                    <lightning-button label="Cancel" onclick={closeModal}></lightning-button>
+                    <lightning-button label="Save" variant="brand" onclick={handleModalSave}></lightning-button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

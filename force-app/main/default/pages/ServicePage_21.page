@@ -1,0 +1,93 @@
+<apex:page controller="ServicePage_21Controller" showHeader="true" sidebar="true" lightningStylesheets="true" docType="html-5.0">
+    <apex:slds />
+    <div class="slds-scope">
+        <div class="slds-page-header">
+            <div class="slds-page-header__row">
+                <div class="slds-page-header__col-title">
+                    <div class="slds-media">
+                        <div class="slds-media__body">
+                            <h1 class="slds-page-header__title">ServicePage_21</h1>
+                            <p class="slds-text-body_small">Manage records efficiently</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-page-header__col-actions">
+                    <apex:form>
+                        <apex:commandButton value="Refresh" action="{!refresh}" styleClass="slds-button slds-button_neutral" reRender="mainPanel" />
+                        <apex:commandButton value="Save" action="{!save}" styleClass="slds-button slds-button_brand" reRender="mainPanel,messages" />
+                    </apex:form>
+                </div>
+            </div>
+        </div>
+
+        <apex:outputPanel id="messages">
+            <apex:pageMessages />
+        </apex:outputPanel>
+
+        <apex:outputPanel id="mainPanel">
+            <div class="slds-card slds-m-around_medium">
+                <div class="slds-card__body slds-card__body_inner">
+                    <apex:form>
+                        <div class="slds-grid slds-gutters">
+                            <div class="slds-col slds-size_1-of-3">
+                                <div class="slds-form-element">
+                                    <label class="slds-form-element__label">Search</label>
+                                    <div class="slds-form-element__control">
+                                        <apex:inputText value="{!searchTerm}" styleClass="slds-input" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slds-col slds-size_1-of-3">
+                                <div class="slds-form-element">
+                                    <label class="slds-form-element__label">Status Filter</label>
+                                    <div class="slds-form-element__control">
+                                        <apex:selectList value="{!selectedStatus}" size="1" styleClass="slds-select">
+                                            <apex:selectOptions value="{!statusOptions}" />
+                                        </apex:selectList>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slds-col slds-size_1-of-3 slds-align-bottom">
+                                <apex:commandButton value="Apply Filters" action="{!applyFilters}" styleClass="slds-button slds-button_neutral" reRender="tablePanel" />
+                            </div>
+                        </div>
+                    </apex:form>
+
+                    <apex:outputPanel id="tablePanel">
+                        <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-m-top_medium">
+                            <thead>
+                                <tr class="slds-line-height_reset">
+                                    <th scope="col"><div class="slds-truncate">Name</div></th>
+                                    <th scope="col"><div class="slds-truncate">Status</div></th>
+                                    <th scope="col"><div class="slds-truncate">Amount</div></th>
+                                    <th scope="col"><div class="slds-truncate">Date</div></th>
+                                    <th scope="col"><div class="slds-truncate">Actions</div></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <apex:repeat value="{!records}" var="rec">
+                                    <tr>
+                                        <td><div class="slds-truncate">{!rec.Name}</div></td>
+                                        <td><span class="slds-badge">{!rec.Industry}</span></td>
+                                        <td><apex:outputText value="{0,number,currency}"><apex:param value="{!rec.AnnualRevenue}" /></apex:outputText></td>
+                                        <td><apex:outputText value="{0,date,MM/dd/yyyy}"><apex:param value="{!rec.CreatedDate}" /></apex:outputText></td>
+                                        <td>
+                                            <apex:form>
+                                                <apex:commandLink value="Edit" action="{!editRecord}" styleClass="slds-m-right_small">
+                                                    <apex:param name="recId" value="{!rec.Id}" assignTo="{!selectedRecordId}" />
+                                                </apex:commandLink>
+                                                <apex:commandLink value="Delete" action="{!deleteRecord}" onclick="return confirm('Are you sure?');">
+                                                    <apex:param name="recId" value="{!rec.Id}" assignTo="{!selectedRecordId}" />
+                                                </apex:commandLink>
+                                            </apex:form>
+                                        </td>
+                                    </tr>
+                                </apex:repeat>
+                            </tbody>
+                        </table>
+                    </apex:outputPanel>
+                </div>
+            </div>
+        </apex:outputPanel>
+    </div>
+</apex:page>

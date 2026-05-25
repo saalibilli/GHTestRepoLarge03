@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>ServiceController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <custom>true</custom>
+    <description>Profile: Custom_Profile_10</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Industry</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.AnnualRevenue</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <loginHours>
+        <mondayStart>0</mondayStart>
+        <mondayEnd>1440</mondayEnd>
+        <tuesdayStart>0</tuesdayStart>
+        <tuesdayEnd>1440</tuesdayEnd>
+        <wednesdayStart>0</wednesdayStart>
+        <wednesdayEnd>1440</wednesdayEnd>
+        <thursdayStart>0</thursdayStart>
+        <thursdayEnd>1440</thursdayEnd>
+        <fridayStart>0</fridayStart>
+        <fridayEnd>1440</fridayEnd>
+    </loginHours>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Account</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <pageAccesses>
+        <apexPage>ServicePage_1</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <tabVisibilities>
+        <tab>standard-Account</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <userLicense>Salesforce</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
+</Profile>

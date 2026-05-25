@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_26__c</fullName>
+    <label>Field 26</label>
+    <description>Auto-generated field 26 for Custom_Object_43__c</description>
+    <inlineHelpText>Enter the value for field 26</inlineHelpText>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+    <precision>5</precision>
+    <scale>2</scale>
+</CustomField>

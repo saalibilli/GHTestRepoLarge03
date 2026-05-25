@@ -1,0 +1,17 @@
+:host {
+    --card-border: 1px solid #d8dde6;
+}
+
+.slds-card {
+    border: var(--card-border);
+    border-radius: 0.25rem;
+}
+
+lightning-datatable {
+    --sds-c-datatable-header-color-background: #f3f3f3;
+}
+
+.slds-illustration {
+    background-color: #fafaf9;
+    border-radius: 0.5rem;
+}

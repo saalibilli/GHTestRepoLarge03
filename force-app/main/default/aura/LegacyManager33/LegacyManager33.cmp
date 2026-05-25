@@ -1,0 +1,70 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global" controller="ServiceController">
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="records" type="List" default="[]" />
+    <aura:attribute name="isLoading" type="Boolean" default="true" />
+    <aura:attribute name="error" type="String" />
+    <aura:attribute name="columns" type="List" />
+    <aura:attribute name="selectedIds" type="List" default="[]" />
+    <aura:attribute name="showConfirmation" type="Boolean" default="false" />
+    <aura:attribute name="totalCount" type="Integer" default="0" />
+    <aura:attribute name="currentPage" type="Integer" default="1" />
+    <aura:attribute name="sortField" type="String" default="Name" />
+    <aura:attribute name="sortOrder" type="String" default="ASC" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler name="change" value="{!v.recordId}" action="{!c.handleRecordChange}" />
+
+    <lightning:card title="{! 'LegacyManager33 Manager'}" iconName="standard:account">
+        <aura:set attribute="actions">
+            <lightning:button label="Refresh" iconName="utility:refresh" onclick="{!c.handleRefresh}" />
+            <lightning:button label="New" variant="brand" iconName="utility:add" onclick="{!c.handleNew}" />
+        </aura:set>
+
+        <div class="slds-p-around_medium">
+            <aura:if isTrue="{!v.isLoading}">
+                <lightning:spinner alternativeText="Loading" size="medium" />
+            </aura:if>
+
+            <aura:if isTrue="{!v.error}">
+                <div class="slds-notify slds-notify_alert slds-theme_error" role="alert">
+                    <span>{!v.error}</span>
+                </div>
+            </aura:if>
+
+            <aura:if isTrue="{!not(empty(v.records))}">
+                <lightning:datatable
+                    aura:id="recordTable"
+                    keyField="Id"
+                    data="{!v.records}"
+                    columns="{!v.columns}"
+                    onrowaction="{!c.handleRowAction}"
+                    onrowselection="{!c.handleSelection}"
+                    showRowNumberColumn="true" />
+
+                <div class="slds-grid slds-grid_align-center slds-m-top_medium">
+                    <lightning:button label="Previous" onclick="{!c.handlePrev}" disabled="{!v.currentPage == 1}" />
+                    <span class="slds-p-horizontal_medium">Page {!v.currentPage}</span>
+                    <lightning:button label="Next" onclick="{!c.handleNext}" />
+                </div>
+            </aura:if>
+        </div>
+    </lightning:card>
+
+    <aura:if isTrue="{!v.showConfirmation}">
+        <section role="dialog" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <h2 class="slds-text-heading_medium">Confirm Action</h2>
+                </header>
+                <div class="slds-modal__content slds-p-around_medium">
+                    <p>Are you sure you want to proceed with this action?</p>
+                </div>
+                <footer class="slds-modal__footer">
+                    <lightning:button label="Cancel" onclick="{!c.closeConfirmation}" />
+                    <lightning:button label="Confirm" variant="brand" onclick="{!c.confirmAction}" />
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </aura:if>
+</aura:component>

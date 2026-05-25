@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_27__c</fullName>
+    <label>Field 27</label>
+    <description>Auto-generated field 27 for Custom_Object_41__c</description>
+    <inlineHelpText>Enter the value for field 27</inlineHelpText>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Custom_Object_41 Field_27__c</relationshipLabel>
+    <relationshipName>Custom_Object_41_Field27</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+</CustomField>
