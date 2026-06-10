@@ -1,0 +1,1 @@
+public class ApexClass_ngIBFly23b { public void m1_Zj8Zw8PRKR() { System.debug('Hello, World!');} public void m2_pytafe38OY() { System.debug('Hello, World!');} public void m3_Pmb4bmKQ1Y() { System.debug('Hello, World!');}}
