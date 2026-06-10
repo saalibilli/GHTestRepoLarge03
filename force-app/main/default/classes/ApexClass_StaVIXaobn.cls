@@ -1,0 +1,1 @@
+public class ApexClass_StaVIXaobn { public void m1_1pW9SYIwuD() { System.debug('Hello, World!');} public void m2_kwGNRb3xKP() { System.debug('Hello, World!');} public void m3_CAqGCm242E() { System.debug('Hello, World!');}}
