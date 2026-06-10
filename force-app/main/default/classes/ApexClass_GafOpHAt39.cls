@@ -1,0 +1,1 @@
+public class ApexClass_GafOpHAt39 { public void m1_CDjc4K6EvV() { System.debug('Hello, World!');} public void m2_fJben7X0Pv() { System.debug('Hello, World!');} public void m3_3B7O6pFzvY() { System.debug('Hello, World!');}}
