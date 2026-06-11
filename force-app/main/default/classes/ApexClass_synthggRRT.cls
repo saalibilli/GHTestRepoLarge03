@@ -1,0 +1,1 @@
+public class ApexClass_synthggRRT { public void m1_oXQCaJRvjh() { System.debug('Hello, World!');} public void m2_qvOzKul42A() { System.debug('Hello, World!');} public void m3_cXb11hHToi() { System.debug('Hello, World!');}}
