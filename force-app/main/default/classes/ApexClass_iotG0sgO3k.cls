@@ -1,0 +1,1 @@
+public class ApexClass_iotG0sgO3k { public void m1_RyptRt3TWw() { System.debug('Hello, World!');} public void m2_36zdFVKQTK() { System.debug('Hello, World!');} public void m3_DgB4YvdS5f() { System.debug('Hello, World!');}}

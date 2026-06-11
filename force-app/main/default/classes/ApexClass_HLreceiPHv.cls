@@ -1,0 +1,1 @@
+public class ApexClass_HLreceiPHv { public void m1_w5DXqxpzx2() { System.debug('Hello, World!');} public void m2_m8oIou9kEM() { System.debug('Hello, World!');} public void m3_JVw6ZE4iqU() { System.debug('Hello, World!');}}
