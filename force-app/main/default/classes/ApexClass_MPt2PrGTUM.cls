@@ -1,0 +1,1 @@
+public class ApexClass_MPt2PrGTUM { public void m1_tbCAbWm2gU() { System.debug('Hello, World!');} public void m2_t98V84AZGr() { System.debug('Hello, World!');} public void m3_Mj1gUYcPHu() { System.debug('Hello, World!');}}
