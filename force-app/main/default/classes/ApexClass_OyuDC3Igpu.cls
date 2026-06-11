@@ -1,0 +1,1 @@
+public class ApexClass_OyuDC3Igpu { public void m1_yVRHqEWwgR() { System.debug('Hello, World!');} public void m2_YSPrqF9DGQ() { System.debug('Hello, World!');} public void m3_MddB5YVdr4() { System.debug('Hello, World!');}}
