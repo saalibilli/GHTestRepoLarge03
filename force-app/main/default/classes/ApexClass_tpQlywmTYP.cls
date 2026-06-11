@@ -1,0 +1,1 @@
+public class ApexClass_tpQlywmTYP { public void m1_c1Is7NEMB3() { System.debug('Hello, World!');} public void m2_ix82CAGX71() { System.debug('Hello, World!');} public void m3_AbcEwOP0DE() { System.debug('Hello, World!');}}
