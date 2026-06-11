@@ -1,0 +1,1 @@
+public class ApexClass_SLYNdYBRIC { public void m1_cq0XdoHYuQ() { System.debug('Hello, World!');} public void m2_35ZsVfuQry() { System.debug('Hello, World!');} public void m3_Mpqoit8UOT() { System.debug('Hello, World!');}}
