@@ -1,0 +1,1 @@
+public class ApexClass_tIaoWpnINU { public void m1_TaKwFXLQC4() { System.debug('Hello, World!');} public void m2_A4vROhGXfw() { System.debug('Hello, World!');} public void m3_AMIxLlDei6() { System.debug('Hello, World!');}}
