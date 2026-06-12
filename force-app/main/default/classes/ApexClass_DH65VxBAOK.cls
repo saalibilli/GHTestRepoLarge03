@@ -1,0 +1,1 @@
+public class ApexClass_DH65VxBAOK { public void m1_UIvblwlz4W() { System.debug('Hello, World!');} public void m2_piXBGRQrzZ() { System.debug('Hello, World!');} public void m3_lkuW04fj1f() { System.debug('Hello, World!');}}
