@@ -1,0 +1,1 @@
+public class ApexClass_u2mLPzHaSH { public void m1_RLMpL1YIOy() { System.debug('Hello, World!');} public void m2_p731qS9g7H() { System.debug('Hello, World!');} public void m3_1CAQxAZdFQ() { System.debug('Hello, World!');}}
