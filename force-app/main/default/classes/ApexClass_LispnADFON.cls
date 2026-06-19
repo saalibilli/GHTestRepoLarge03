@@ -1,0 +1,1 @@
+public class ApexClass_LispnADFON { public void m1_tktdtLccMT() { System.debug('Hello, World!');} public void m2_jzMA8yRTMI() { System.debug('Hello, World!');} public void m3_Bj0xxaHPdy() { System.debug('Hello, World!');}}
