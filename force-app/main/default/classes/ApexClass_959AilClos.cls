@@ -1,0 +1,1 @@
+public class ApexClass_959AilClos { public void m1_AXWuXQyj6v() { System.debug('Hello, World!');} public void m2_udNz4jxm62() { System.debug('Hello, World!');} public void m3_GrPXjZ1Vuf() { System.debug('Hello, World!');}}
