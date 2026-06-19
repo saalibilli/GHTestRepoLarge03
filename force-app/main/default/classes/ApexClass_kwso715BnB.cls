@@ -1,0 +1,1 @@
+public class ApexClass_kwso715BnB { public void m1_NTZHFyuWgp() { System.debug('Hello, World!');} public void m2_653mVGPTxk() { System.debug('Hello, World!');} public void m3_L8QlIpJsmS() { System.debug('Hello, World!');}}
