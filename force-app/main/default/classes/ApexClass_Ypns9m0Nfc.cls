@@ -1,0 +1,1 @@
+public class ApexClass_Ypns9m0Nfc { public void m1_UwNgMxnUun() { System.debug('Hello, World!');} public void m2_1hNxLZN6UE() { System.debug('Hello, World!');} public void m3_V8fpoTuCw6() { System.debug('Hello, World!');}}
