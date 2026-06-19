@@ -1,0 +1,1 @@
+public class ApexClass_HcumlXUREt { public void m1_0PDdR5mAPj() { System.debug('Hello, World!');} public void m2_Tj9heXzUvD() { System.debug('Hello, World!');} public void m3_0dpJlLDCJ8() { System.debug('Hello, World!');}}
