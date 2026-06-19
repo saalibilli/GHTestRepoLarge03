@@ -1,0 +1,1 @@
+public class ApexClass_FSuMPJuNFX { public void m1_dtx4ygOGea() { System.debug('Hello, World!');} public void m2_49W0cWbAdm() { System.debug('Hello, World!');} public void m3_nD6mjbOo0F() { System.debug('Hello, World!');}}
