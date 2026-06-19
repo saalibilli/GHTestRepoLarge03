@@ -1,0 +1,1 @@
+public class ApexClass_iFRPKmagX6 { public void m1_Fyneb2rEK8() { System.debug('Hello, World!');} public void m2_SOLmlTmV67() { System.debug('Hello, World!');} public void m3_PnBV2rasKz() { System.debug('Hello, World!');}}
