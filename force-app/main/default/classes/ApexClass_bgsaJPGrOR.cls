@@ -1,0 +1,1 @@
+public class ApexClass_bgsaJPGrOR { public void m1_7H1WweOq2L() { System.debug('Hello, World!');} public void m2_bXsSdaB1yl() { System.debug('Hello, World!');} public void m3_2kRtkB0kFm() { System.debug('Hello, World!');}}
