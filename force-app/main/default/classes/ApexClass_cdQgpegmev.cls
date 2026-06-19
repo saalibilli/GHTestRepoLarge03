@@ -1,0 +1,1 @@
+public class ApexClass_cdQgpegmev { public void m1_HaEyTnklaV() { System.debug('Hello, World!');} public void m2_7FIlWGrxr6() { System.debug('Hello, World!');} public void m3_jAIc3js8T2() { System.debug('Hello, World!');}}
