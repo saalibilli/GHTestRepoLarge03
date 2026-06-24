@@ -1,0 +1,1 @@
+public class ApexClass_LOKVN8vLAC { public void m1_UJzC6zDCby() { System.debug('Hello, World!');} public void m2_mHX4GLIrGx() { System.debug('Hello, World!');} public void m3_UxG0dlKSbz() { System.debug('Hello, World!');}}
