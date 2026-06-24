@@ -1,0 +1,1 @@
+public class ApexClass_GaMMI2D2eq { public void m1_vhytOQ2ieR() { System.debug('Hello, World!');} public void m2_K46EzcrmQf() { System.debug('Hello, World!');} public void m3_0NYe7D4Pks() { System.debug('Hello, World!');}}
