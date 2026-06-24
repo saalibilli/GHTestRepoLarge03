@@ -1,0 +1,1 @@
+public class ApexClass_vDOllUpdpa { public void m1_jLsCSZPpKK() { System.debug('Hello, World!');} public void m2_M4NdEfe2kG() { System.debug('Hello, World!');} public void m3_LkBxVrCxwl() { System.debug('Hello, World!');}}
