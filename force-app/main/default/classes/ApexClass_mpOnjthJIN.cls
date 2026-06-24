@@ -1,0 +1,1 @@
+public class ApexClass_mpOnjthJIN { public void m1_2VUMbR16Jr() { System.debug('Hello, World!');} public void m2_4TrmRBhnJB() { System.debug('Hello, World!');} public void m3_IO1l9SjX6Q() { System.debug('Hello, World!');}}
