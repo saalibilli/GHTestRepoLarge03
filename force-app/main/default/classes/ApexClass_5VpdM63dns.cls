@@ -1,0 +1,1 @@
+public class ApexClass_5VpdM63dns { public void m1_wHpvWiBLfN() { System.debug('Hello, World!');} public void m2_bc3txFruCw() { System.debug('Hello, World!');} public void m3_I4sQgZtIyd() { System.debug('Hello, World!');}}
