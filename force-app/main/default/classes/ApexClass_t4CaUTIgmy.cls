@@ -1,0 +1,1 @@
+public class ApexClass_t4CaUTIgmy { public void m1_EMqngYxQzK() { System.debug('Hello, World!');} public void m2_5q3BgzyOpo() { System.debug('Hello, World!');} public void m3_2ZkyvhXw6k() { System.debug('Hello, World!');}}
