@@ -1,0 +1,1 @@
+public class ApexClass_n04OnbULAl { public void m1_OizOmNEV3X() { System.debug('Hello, World!');} public void m2_RYLtkOGrNB() { System.debug('Hello, World!');} public void m3_Hnicob0CY3() { System.debug('Hello, World!');}}

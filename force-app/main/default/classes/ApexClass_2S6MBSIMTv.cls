@@ -1,0 +1,1 @@
+public class ApexClass_2S6MBSIMTv { public void m1_AfCDHupVgC() { System.debug('Hello, World!');} public void m2_yDisL7Ljk1() { System.debug('Hello, World!');} public void m3_eEGgGcY5iz() { System.debug('Hello, World!');}}
