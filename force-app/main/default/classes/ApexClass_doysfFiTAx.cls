@@ -1,0 +1,1 @@
+public class ApexClass_doysfFiTAx { public void m1_R5nwi3kKMc() { System.debug('Hello, World!');} public void m2_rY0t01AAnZ() { System.debug('Hello, World!');} public void m3_1c7qzusYFD() { System.debug('Hello, World!');}}
