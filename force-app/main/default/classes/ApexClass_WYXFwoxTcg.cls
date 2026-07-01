@@ -1,0 +1,1 @@
+public class ApexClass_WYXFwoxTcg { public void m1_3FASVRR7C4() { System.debug('Hello, World!');} public void m2_6KvLP1akfb() { System.debug('Hello, World!');} public void m3_3pYwxIGfvL() { System.debug('Hello, World!');}}
