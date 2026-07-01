@@ -1,0 +1,1 @@
+public class ApexClass_omnaPHzbau { public void m1_YJObk4LuxM() { System.debug('Hello, World!');} public void m2_I0adqyZM7t() { System.debug('Hello, World!');} public void m3_Efw8RPEj61() { System.debug('Hello, World!');}}
