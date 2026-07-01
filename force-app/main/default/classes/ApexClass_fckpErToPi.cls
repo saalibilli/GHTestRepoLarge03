@@ -1,0 +1,1 @@
+public class ApexClass_fckpErToPi { public void m1_7gFndlLFQu() { System.debug('Hello, World!');} public void m2_qYflouOb8i() { System.debug('Hello, World!');} public void m3_k7FutCDzHA() { System.debug('Hello, World!');}}
