@@ -1,0 +1,1 @@
+public class ApexClass_JHrfPyCbvf { public void m1_rlIw40YwID() { System.debug('Hello, World!');} public void m2_05amRphJfN() { System.debug('Hello, World!');} public void m3_GTJRYM355g() { System.debug('Hello, World!');}}
