@@ -1,0 +1,1 @@
+public class ApexClass_UFmUBcJmC4 { public void m1_ngMnDgrPGE() { System.debug('Hello, World!');} public void m2_pyZDJfwg3m() { System.debug('Hello, World!');} public void m3_fmcPmLELB7() { System.debug('Hello, World!');}}
