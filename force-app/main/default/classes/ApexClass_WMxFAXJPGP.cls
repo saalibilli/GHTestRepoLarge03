@@ -1,0 +1,1 @@
+public class ApexClass_WMxFAXJPGP { public void m1_AyBtSpEut7() { System.debug('Hello, World!');} public void m2_pA7xZ3bIWB() { System.debug('Hello, World!');} public void m3_W5RwgMalgi() { System.debug('Hello, World!');}}
