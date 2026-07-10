@@ -1,0 +1,1 @@
+public class ApexClass_strHifiXCs { public void m1_5SmrTGNPOz() { System.debug('Hello, World!');} public void m2_s0u6T1ylXI() { System.debug('Hello, World!');} public void m3_IzzbGbctEj() { System.debug('Hello, World!');}}
