@@ -1,0 +1,1 @@
+public class ApexClass_OSk8HLKCGI { public void m1_vmtQNHv7Sl() { System.debug('Hello, World!');} public void m2_VgpdRubmTH() { System.debug('Hello, World!');} public void m3_9Lhoz4aKVM() { System.debug('Hello, World!');}}
