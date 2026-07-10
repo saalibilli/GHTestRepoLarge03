@@ -1,0 +1,1 @@
+public class ApexClass_jOlenMLftr { public void m1_zRN62y4TKw() { System.debug('Hello, World!');} public void m2_ukXjPHbMHQ() { System.debug('Hello, World!');} public void m3_64sfJFnc3O() { System.debug('Hello, World!');}}
