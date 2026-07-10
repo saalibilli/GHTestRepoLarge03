@@ -1,0 +1,1 @@
+public class ApexClass_Mb378tatVM { public void m1_RCxQAwoH6a() { System.debug('Hello, World!');} public void m2_0OLgaXkC4l() { System.debug('Hello, World!');} public void m3_6k9aK2KScs() { System.debug('Hello, World!');}}
