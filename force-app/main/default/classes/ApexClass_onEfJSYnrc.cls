@@ -1,0 +1,1 @@
+public class ApexClass_onEfJSYnrc { public void m1_MF6DBBSUii() { System.debug('Hello, World!');} public void m2_uD8nnjcHrY() { System.debug('Hello, World!');} public void m3_z8d4dcYO5n() { System.debug('Hello, World!');}}
