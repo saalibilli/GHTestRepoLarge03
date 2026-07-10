@@ -1,0 +1,1 @@
+public class ApexClass_KLKyoDIMCE { public void m1_uwwM2hF8yW() { System.debug('Hello, World!');} public void m2_apKY7AaTpR() { System.debug('Hello, World!');} public void m3_0rKR4Uwho3() { System.debug('Hello, World!');}}
