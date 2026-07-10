@@ -1,0 +1,1 @@
+public class ApexClass_dosguzzlut { public void m1_IE0dgQASuK() { System.debug('Hello, World!');} public void m2_6UIAip3yvE() { System.debug('Hello, World!');} public void m3_o5MqkCcN8R() { System.debug('Hello, World!');}}
