@@ -1,0 +1,1 @@
+public class ApexClass_oBlUKASqmp { public void m1_hV0bfoQ1qc() { System.debug('Hello, World!');} public void m2_BKfDtvWGZL() { System.debug('Hello, World!');} public void m3_SN2Regqprx() { System.debug('Hello, World!');}}
