@@ -1,0 +1,1 @@
+public class ApexClass_cwnolnDiws { public void m1_MzhIf8EjxE() { System.debug('Hello, World!');} public void m2_xWQzXmV2ns() { System.debug('Hello, World!');} public void m3_oj9EsG1Te1() { System.debug('Hello, World!');}}
