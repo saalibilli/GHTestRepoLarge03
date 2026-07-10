@@ -1,0 +1,1 @@
+public class ApexClass_buPregGmr5 { public void m1_4pd81igSbp() { System.debug('Hello, World!');} public void m2_J2xoFVkbIp() { System.debug('Hello, World!');} public void m3_qOoilJqJFb() { System.debug('Hello, World!');}}
