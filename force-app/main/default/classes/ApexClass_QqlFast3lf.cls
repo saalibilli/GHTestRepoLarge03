@@ -1,0 +1,1 @@
+public class ApexClass_QqlFast3lf { public void m1_5OJm2SFDo5() { System.debug('Hello, World!');} public void m2_yIW1PYAuQJ() { System.debug('Hello, World!');} public void m3_rhE4KnChxN() { System.debug('Hello, World!');}}
