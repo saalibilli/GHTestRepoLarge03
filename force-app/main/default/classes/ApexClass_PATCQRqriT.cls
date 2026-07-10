@@ -1,0 +1,1 @@
+public class ApexClass_PATCQRqriT { public void m1_V05WXxmS2e() { System.debug('Hello, World!');} public void m2_wwtFtNEQJv() { System.debug('Hello, World!');} public void m3_dOOzRzdrqB() { System.debug('Hello, World!');}}
