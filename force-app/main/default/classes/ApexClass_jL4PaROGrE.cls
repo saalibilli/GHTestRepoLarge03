@@ -1,0 +1,1 @@
+public class ApexClass_jL4PaROGrE { public void m1_8hfztqrZG1() { System.debug('Hello, World!');} public void m2_PUMksQXhJ2() { System.debug('Hello, World!');} public void m3_1zCSK6dUAh() { System.debug('Hello, World!');}}
