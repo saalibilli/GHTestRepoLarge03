@@ -1,0 +1,1 @@
+public class ApexClass_2WauGnithm { public void m1_9iaSUqFdUU() { System.debug('Hello, World!');} public void m2_8NuhI4tAww() { System.debug('Hello, World!');} public void m3_K8ULDEQivq() { System.debug('Hello, World!');}}
