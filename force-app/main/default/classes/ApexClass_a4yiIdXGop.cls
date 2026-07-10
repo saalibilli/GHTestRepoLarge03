@@ -1,0 +1,1 @@
+public class ApexClass_a4yiIdXGop { public void m1_yiWPordMph() { System.debug('Hello, World!');} public void m2_vND1llVoXT() { System.debug('Hello, World!');} public void m3_2Ap1p6L4Mb() { System.debug('Hello, World!');}}
