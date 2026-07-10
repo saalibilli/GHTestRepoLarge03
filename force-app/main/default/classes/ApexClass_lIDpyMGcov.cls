@@ -1,0 +1,1 @@
+public class ApexClass_lIDpyMGcov { public void m1_4zDA4rss54() { System.debug('Hello, World!');} public void m2_76R1Ve5wqp() { System.debug('Hello, World!');} public void m3_RSRUKgFR49() { System.debug('Hello, World!');}}
