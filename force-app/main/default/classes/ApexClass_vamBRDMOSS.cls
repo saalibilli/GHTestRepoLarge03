@@ -1,0 +1,1 @@
+public class ApexClass_vamBRDMOSS { public void m1_6ZOqsHq7wH() { System.debug('Hello, World!');} public void m2_o3HmhvCxIT() { System.debug('Hello, World!');} public void m3_A9aPJCahPb() { System.debug('Hello, World!');}}
