@@ -1,0 +1,1 @@
+public class ApexClass_Span26UT2j { public void m1_aujnWY0KHp() { System.debug('Hello, World!');} public void m2_TMXxiLZhfW() { System.debug('Hello, World!');} public void m3_p3csxKDb9u() { System.debug('Hello, World!');}}
