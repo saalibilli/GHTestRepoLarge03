@@ -1,0 +1,1 @@
+public class ApexClass_fifaO2mLCW { public void m1_0E35UUPL0N() { System.debug('Hello, World!');} public void m2_G2IfCqfmdI() { System.debug('Hello, World!');} public void m3_ZwKTu7wrWt() { System.debug('Hello, World!');}}
