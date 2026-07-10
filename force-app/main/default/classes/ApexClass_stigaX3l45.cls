@@ -1,0 +1,1 @@
+public class ApexClass_stigaX3l45 { public void m1_SZApHvUVie() { System.debug('Hello, World!');} public void m2_V88InPAKuv() { System.debug('Hello, World!');} public void m3_5tSPIa9y2S() { System.debug('Hello, World!');}}
