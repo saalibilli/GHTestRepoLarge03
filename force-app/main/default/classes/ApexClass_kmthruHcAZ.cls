@@ -1,0 +1,1 @@
+public class ApexClass_kmthruHcAZ { public void m1_V2s2i7JP9X() { System.debug('Hello, World!');} public void m2_a7lr0NLBJT() { System.debug('Hello, World!');} public void m3_Fr2HX5xXIS() { System.debug('Hello, World!');}}
