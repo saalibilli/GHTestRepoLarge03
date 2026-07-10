@@ -1,0 +1,1 @@
+public class ApexClass_bHpscDovmp { public void m1_djbITWnyty() { System.debug('Hello, World!');} public void m2_xK9zgBMKJw() { System.debug('Hello, World!');} public void m3_EC26NFVxg5() { System.debug('Hello, World!');}}
