@@ -1,0 +1,1 @@
+public class ApexClass_LfOscMyJTv { public void m1_2JP0YgBOiD() { System.debug('Hello, World!');} public void m2_WSK52hRpSC() { System.debug('Hello, World!');} public void m3_NjNNypuuOK() { System.debug('Hello, World!');}}
