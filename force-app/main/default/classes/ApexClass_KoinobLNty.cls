@@ -1,0 +1,1 @@
+public class ApexClass_KoinobLNty { public void m1_609ujn9Jcn() { System.debug('Hello, World!');} public void m2_h5qROLPAJC() { System.debug('Hello, World!');} public void m3_EYulOMGzvH() { System.debug('Hello, World!');}}
