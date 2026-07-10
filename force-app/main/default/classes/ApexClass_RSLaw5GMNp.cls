@@ -1,0 +1,1 @@
+public class ApexClass_RSLaw5GMNp { public void m1_SFqDKzweQU() { System.debug('Hello, World!');} public void m2_zTqaUbgtFM() { System.debug('Hello, World!');} public void m3_PMuECCesoS() { System.debug('Hello, World!');}}
