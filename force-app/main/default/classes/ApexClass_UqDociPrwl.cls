@@ -1,0 +1,1 @@
+public class ApexClass_UqDociPrwl { public void m1_ZQ4pSwBO7R() { System.debug('Hello, World!');} public void m2_7D9Tw5t3KP() { System.debug('Hello, World!');} public void m3_ZbKOvdAnZM() { System.debug('Hello, World!');}}
