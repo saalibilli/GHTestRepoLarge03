@@ -1,0 +1,1 @@
+public class ApexClass_jVMfMUstS3 { public void m1_M4ub0s9S2v() { System.debug('Hello, World!');} public void m2_kFKnSekVsL() { System.debug('Hello, World!');} public void m3_vjujmFiUVu() { System.debug('Hello, World!');}}
