@@ -1,0 +1,1 @@
+public class ApexClass_deLRYJ2ghz { public void m1_nuv385w6YK() { System.debug('Hello, World!');} public void m2_Aw6KL8mtzL() { System.debug('Hello, World!');} public void m3_a9ZwpDIMkj() { System.debug('Hello, World!');}}
