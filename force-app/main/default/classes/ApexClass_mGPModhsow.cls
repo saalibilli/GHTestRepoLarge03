@@ -1,0 +1,1 @@
+public class ApexClass_mGPModhsow { public void m1_x7UN8xVjpO() { System.debug('Hello, World!');} public void m2_8eFvPFXgIC() { System.debug('Hello, World!');} public void m3_KtA8ZcAVg5() { System.debug('Hello, World!');}}
