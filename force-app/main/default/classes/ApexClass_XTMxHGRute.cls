@@ -1,0 +1,1 @@
+public class ApexClass_XTMxHGRute { public void m1_igUi6tZ36i() { System.debug('Hello, World!');} public void m2_tCCGhLxa7b() { System.debug('Hello, World!');} public void m3_hTPr9cqhfl() { System.debug('Hello, World!');}}
