@@ -1,0 +1,1 @@
+public class ApexClass_NquemlDcog { public void m1_izNB8vRMuh() { System.debug('Hello, World!');} public void m2_8JhOdh8xnw() { System.debug('Hello, World!');} public void m3_HMvx41mMUu() { System.debug('Hello, World!');}}
