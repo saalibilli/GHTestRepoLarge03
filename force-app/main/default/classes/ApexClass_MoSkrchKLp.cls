@@ -1,0 +1,1 @@
+public class ApexClass_MoSkrchKLp { public void m1_3V6XjvMBnb() { System.debug('Hello, World!');} public void m2_POPExfZaDR() { System.debug('Hello, World!');} public void m3_cScvxkREqF() { System.debug('Hello, World!');}}

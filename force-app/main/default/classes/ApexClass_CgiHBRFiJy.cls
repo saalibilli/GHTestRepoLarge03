@@ -1,0 +1,1 @@
+public class ApexClass_CgiHBRFiJy { public void m1_oQPjxSrR3g() { System.debug('Hello, World!');} public void m2_4pFn2JMNIR() { System.debug('Hello, World!');} public void m3_cvaQ9iZ2pI() { System.debug('Hello, World!');}}
