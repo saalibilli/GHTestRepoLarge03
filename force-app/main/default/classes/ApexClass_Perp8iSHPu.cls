@@ -1,0 +1,1 @@
+public class ApexClass_Perp8iSHPu { public void m1_7r2e2viG6q() { System.debug('Hello, World!');} public void m2_b9fczoISNk() { System.debug('Hello, World!');} public void m3_Wy3tM67w9M() { System.debug('Hello, World!');}}
