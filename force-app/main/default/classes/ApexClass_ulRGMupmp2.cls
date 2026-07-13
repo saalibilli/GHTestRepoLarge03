@@ -1,0 +1,1 @@
+public class ApexClass_ulRGMupmp2 { public void m1_XaJf9zQcyS() { System.debug('Hello, World!');} public void m2_Dwv67MbuJp() { System.debug('Hello, World!');} public void m3_vokXulETko() { System.debug('Hello, World!');}}

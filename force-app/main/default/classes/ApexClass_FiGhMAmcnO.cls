@@ -1,0 +1,1 @@
+public class ApexClass_FiGhMAmcnO { public void m1_0rC36WiB2o() { System.debug('Hello, World!');} public void m2_jCMneYdsWg() { System.debug('Hello, World!');} public void m3_mM3swSiUiV() { System.debug('Hello, World!');}}
