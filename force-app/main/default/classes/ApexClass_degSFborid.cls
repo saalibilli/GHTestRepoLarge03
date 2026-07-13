@@ -1,0 +1,1 @@
+public class ApexClass_degSFborid { public void m1_UhIi90CTgP() { System.debug('Hello, World!');} public void m2_JGte9fAjU1() { System.debug('Hello, World!');} public void m3_VfQSzWBUAx() { System.debug('Hello, World!');}}
