@@ -1,0 +1,1 @@
+public class ApexClass_MyGTVdkSSz { public void m1_ErP4gnNaJq() { System.debug('Hello, World!');} public void m2_Whfyem793X() { System.debug('Hello, World!');} public void m3_xOmiII3XUx() { System.debug('Hello, World!');}}
