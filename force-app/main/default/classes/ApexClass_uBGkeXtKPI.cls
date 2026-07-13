@@ -1,0 +1,1 @@
+public class ApexClass_uBGkeXtKPI { public void m1_tkSpvx3WBz() { System.debug('Hello, World!');} public void m2_PScw2TUe2z() { System.debug('Hello, World!');} public void m3_JxUfwRqLWS() { System.debug('Hello, World!');}}
