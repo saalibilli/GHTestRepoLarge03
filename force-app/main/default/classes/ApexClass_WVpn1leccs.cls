@@ -1,0 +1,1 @@
+public class ApexClass_WVpn1leccs { public void m1_RVMVm3UeMO() { System.debug('Hello, World!');} public void m2_kL5l3mVARY() { System.debug('Hello, World!');} public void m3_W7HCHWT7Gi() { System.debug('Hello, World!');}}
