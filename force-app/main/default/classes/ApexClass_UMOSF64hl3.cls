@@ -1,0 +1,1 @@
+public class ApexClass_UMOSF64hl3 { public void m1_C7Kziq976j() { System.debug('Hello, World!');} public void m2_ROLPI4nOy6() { System.debug('Hello, World!');} public void m3_Eni7ST5MkZ() { System.debug('Hello, World!');}}
