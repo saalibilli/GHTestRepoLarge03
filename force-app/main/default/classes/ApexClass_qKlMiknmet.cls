@@ -1,0 +1,1 @@
+public class ApexClass_qKlMiknmet { public void m1_i0LGlmEYNf() { System.debug('Hello, World!');} public void m2_wwA9tyqCdL() { System.debug('Hello, World!');} public void m3_L8LRxOdRxk() { System.debug('Hello, World!');}}
