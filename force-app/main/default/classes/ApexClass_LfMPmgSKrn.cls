@@ -1,0 +1,1 @@
+public class ApexClass_LfMPmgSKrn { public void m1_U9J15wthTW() { System.debug('Hello, World!');} public void m2_vS63bT7s67() { System.debug('Hello, World!');} public void m3_ZXKow0BVWB() { System.debug('Hello, World!');}}
