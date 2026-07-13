@@ -1,0 +1,1 @@
+public class ApexClass_ceGbPROcHb { public void m1_HZOIbbvplG() { System.debug('Hello, World!');} public void m2_KCYqSbDYmY() { System.debug('Hello, World!');} public void m3_h2lwQ8aaum() { System.debug('Hello, World!');}}
