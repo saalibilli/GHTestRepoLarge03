@@ -1,0 +1,1 @@
+public class ApexClass_sNTDObNfun { public void m1_zW5YXzf9KD() { System.debug('Hello, World!');} public void m2_WAyUthxPTB() { System.debug('Hello, World!');} public void m3_mpRsQIXsUZ() { System.debug('Hello, World!');}}
