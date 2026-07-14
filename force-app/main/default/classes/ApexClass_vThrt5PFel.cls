@@ -1,0 +1,1 @@
+public class ApexClass_vThrt5PFel { public void m1_S2nNYQfbI3() { System.debug('Hello, World!');} public void m2_d6XJakNT5E() { System.debug('Hello, World!');} public void m3_NqamBZbCyq() { System.debug('Hello, World!');}}
