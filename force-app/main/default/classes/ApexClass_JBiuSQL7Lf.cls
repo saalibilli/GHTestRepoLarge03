@@ -1,0 +1,1 @@
+public class ApexClass_JBiuSQL7Lf { public void m1_rZhkl5r0JE() { System.debug('Hello, World!');} public void m2_yTSR76yYhP() { System.debug('Hello, World!');} public void m3_fLn9izoihz() { System.debug('Hello, World!');}}
