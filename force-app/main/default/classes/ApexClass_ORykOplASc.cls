@@ -1,0 +1,1 @@
+public class ApexClass_ORykOplASc { public void m1_YKMd4GiCjg() { System.debug('Hello, World!');} public void m2_Yas5eD9WRp() { System.debug('Hello, World!');} public void m3_9R25vhWDJg() { System.debug('Hello, World!');}}
