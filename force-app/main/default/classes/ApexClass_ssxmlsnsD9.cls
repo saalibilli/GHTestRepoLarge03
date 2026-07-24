@@ -1,0 +1,1 @@
+public class ApexClass_ssxmlsnsD9 { public void m1_xp4RCNLpWt() { System.debug('Hello, World!');} public void m2_TNsRuYcq8q() { System.debug('Hello, World!');} public void m3_DZyRNXwdns() { System.debug('Hello, World!');}}
