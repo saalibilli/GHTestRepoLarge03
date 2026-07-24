@@ -1,0 +1,1 @@
+public class ApexClass_ncweAGEBin { public void m1_GUQddmWyOF() { System.debug('Hello, World!');} public void m2_g4RMvZ9x1X() { System.debug('Hello, World!');} public void m3_ADPPHMi5Fl() { System.debug('Hello, World!');}}
