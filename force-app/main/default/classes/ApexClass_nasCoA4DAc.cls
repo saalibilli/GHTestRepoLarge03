@@ -1,0 +1,1 @@
+public class ApexClass_nasCoA4DAc { public void m1_CrioMzX6aB() { System.debug('Hello, World!');} public void m2_U0t1EEWJwB() { System.debug('Hello, World!');} public void m3_l8WG542SAv() { System.debug('Hello, World!');}}
