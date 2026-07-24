@@ -1,0 +1,1 @@
+public class ApexClass_DnSlRqYeld { public void m1_OHnFyGvP27() { System.debug('Hello, World!');} public void m2_B6nIKPinKW() { System.debug('Hello, World!');} public void m3_PIjbPRZhix() { System.debug('Hello, World!');}}
