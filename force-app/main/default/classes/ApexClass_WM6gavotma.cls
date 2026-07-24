@@ -1,0 +1,1 @@
+public class ApexClass_WM6gavotma { public void m1_UyJGy49g5e() { System.debug('Hello, World!');} public void m2_eVFRUnoCBo() { System.debug('Hello, World!');} public void m3_K4t3wX5TAB() { System.debug('Hello, World!');}}
