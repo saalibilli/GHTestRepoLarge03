@@ -1,0 +1,1 @@
+public class ApexClass_ramJmbVMSa { public void m1_tUFKMH0sE6() { System.debug('Hello, World!');} public void m2_BjvRkGPreq() { System.debug('Hello, World!');} public void m3_xxWlYjZG65() { System.debug('Hello, World!');}}
