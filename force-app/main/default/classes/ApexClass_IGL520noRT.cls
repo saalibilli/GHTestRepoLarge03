@@ -1,0 +1,1 @@
+public class ApexClass_IGL520noRT { public void m1_7gd1hsGI7H() { System.debug('Hello, World!');} public void m2_0z4Nr55I2O() { System.debug('Hello, World!');} public void m3_cmgFNlMEv8() { System.debug('Hello, World!');}}
