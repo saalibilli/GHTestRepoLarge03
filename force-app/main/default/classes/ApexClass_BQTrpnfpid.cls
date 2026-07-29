@@ -1,0 +1,1 @@
+public class ApexClass_BQTrpnfpid { public void m1_Sz3H2ZI7E0() { System.debug('Hello, World!');} public void m2_j5Z4NIzbgT() { System.debug('Hello, World!');} public void m3_jGzZgXTd9G() { System.debug('Hello, World!');}}
