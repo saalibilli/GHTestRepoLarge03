@@ -1,0 +1,1 @@
+public class ApexClass_ViVar0WdDf { public void m1_A27VYIAGSN() { System.debug('Hello, World!');} public void m2_0mu5IhBuzU() { System.debug('Hello, World!');} public void m3_NMGsnkvncc() { System.debug('Hello, World!');}}
