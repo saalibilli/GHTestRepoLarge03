@@ -1,0 +1,1 @@
+public class ApexClass_LAa9UEpMAP { public void m1_RoaL9YvbG4() { System.debug('Hello, World!');} public void m2_ORIsmGRkFa() { System.debug('Hello, World!');} public void m3_Jl4cvN0rp8() { System.debug('Hello, World!');}}
