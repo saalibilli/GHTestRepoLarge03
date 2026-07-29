@@ -1,0 +1,1 @@
+public class ApexClass_TLlDCryble { public void m1_tz2QFOZ6uh() { System.debug('Hello, World!');} public void m2_2sLuFXr2yF() { System.debug('Hello, World!');} public void m3_vwaxgdxlcm() { System.debug('Hello, World!');}}
