@@ -1,0 +1,1 @@
+public class ApexClass_VYAmlLOpUL { public void m1_1lRrj5aDrC() { System.debug('Hello, World!');} public void m2_o2FAJFhD32() { System.debug('Hello, World!');} public void m3_bL2XbR5kHl() { System.debug('Hello, World!');}}
