@@ -1,0 +1,1 @@
+public class ApexClass_YnbiveFngG { public void m1_Ig84NAb51E() { System.debug('Hello, World!');} public void m2_g7U59ToFO2() { System.debug('Hello, World!');} public void m3_GJGPvlMPNI() { System.debug('Hello, World!');}}

@@ -1,0 +1,1 @@
+public class ApexClass_lRdiKwvlan { public void m1_VL89Vns9bH() { System.debug('Hello, World!');} public void m2_8h5Wbo19lp() { System.debug('Hello, World!');} public void m3_IGH5MY1f3U() { System.debug('Hello, World!');}}
