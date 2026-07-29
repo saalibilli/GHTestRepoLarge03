@@ -1,0 +1,1 @@
+public class ApexClass_bzeLDaV2py { public void m1_iAiXIynLjg() { System.debug('Hello, World!');} public void m2_cew07IVEbu() { System.debug('Hello, World!');} public void m3_4fi4JnGaUo() { System.debug('Hello, World!');}}
